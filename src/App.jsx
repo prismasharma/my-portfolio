@@ -78,13 +78,18 @@ function App() {
 
         </div>
 
-        {/* Profile Photo Placeholder */}
-        <div className="hero-image">
-          <div className="photo-placeholder">
-            <span>PS</span>
-          </div>
-          <div className="image-glow"></div>
-        </div>
+       
+        
+{/* Profile Photo */}
+<div className="hero-image">
+  <img
+    src="/profile.png"
+    alt="Prisma Sharma"
+    className="profile-photo"
+  />
+  <div className="image-glow"></div>
+</div>
+
 
       </section>
        <About />
