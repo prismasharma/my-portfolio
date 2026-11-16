@@ -162,24 +162,17 @@
   justify-content: center;
 }
 
-.photo-placeholder {
+
+.profile-photo {
   width: 290px;
   height: 340px;
+  object-fit: cover;
+  object-position: center;
   border: 1px solid #a78bfa;
   border-radius: 150px 150px 25px 25px;
-  background: linear-gradient(145deg, #252039, #11111a);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   z-index: 1;
-}
-
-.photo-placeholder span {
-  font-family: 'Outfit', sans-serif;
-  font-size: 65px;
-  font-weight: 800;
-  color: #a78bfa;
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.15);
 }
 
 .image-glow {
